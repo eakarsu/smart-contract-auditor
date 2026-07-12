@@ -1,0 +1,30 @@
+{
+  "id": "smart-contract-auditor",
+  "title": "Smart Contract Auditor App",
+  "industry": "Financial Services",
+  "industryId": "financial-services",
+  "specialization": "Smart Contract Auditor",
+  "sourcePlatformGroup": "crypto-defi-platform",
+  "sources": [
+    "AIClimateFinanceCarbonRegistry",
+    "AICryptocurrencyTaxCalculator",
+    "AISmartContractAuditor",
+    "bitcoin"
+  ],
+  "featureCount": 254,
+  "candidateFeatureCount": 375,
+  "eliminatedSimilarFeatures": 121,
+  "evidenceCount": 692,
+  "aiPageCount": 20,
+  "sourceAIPageCount": 20,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 2,
+    "seededTables": 22,
+    "seededRows": 345
+  },
+  "visibleFeatureCount": 53,
+  "featureVisibilityMode": "seeded-or-ai"
+}
