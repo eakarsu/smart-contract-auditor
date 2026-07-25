@@ -1,5 +1,148 @@
 [
   {
+    "name": "Action",
+    "canonicalKey": "action",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/recommendations/:id/action"
+    ],
+    "sourceProjects": [
+      "bitcoin"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "bitcoin",
+        "path": "trading-platform/backend/src/routes/enhancements.js:104",
+        "route": "/recommendations/:id/action",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Additionality Scorer",
+    "canonicalKey": "additionality scorer",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/additionality-scorer",
+      "/ai/additionality-scorer"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "backend/routes/ai.js:74",
+        "route": "/additionality-scorer",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/components/Sidebar.js:40",
+        "route": "",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/App.js:155",
+        "route": "/ai/additionality-scorer",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/components/Dashboard.js:36",
+        "route": "/ai/additionality-scorer",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/components/Sidebar.js:40",
+        "route": "/ai/additionality-scorer",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Advanced Analysis",
+    "canonicalKey": "advanced analysis",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ai/AdvancedAnalysis",
+      "advanced-analysis"
+    ],
+    "sourceProjects": [
+      "AISmartContractAuditor"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/App.tsx:100",
+        "route": "advanced-analysis",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/pages/ai/AdvancedAnalysis.tsx",
+        "route": "/ai/AdvancedAnalysis",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Aggregated",
+    "canonicalKey": "aggregated",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/sentiment/:symbol/aggregated"
+    ],
+    "sourceProjects": [
+      "bitcoin"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "bitcoin",
+        "path": "trading-platform/backend/src/routes/enhancements.js:170",
+        "route": "/sentiment/:symbol/aggregated",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "AI Additionality Scorer Page",
     "canonicalKey": "additionality ai scorer",
     "aliases": [],
@@ -46,21 +189,21 @@
       {
         "kind": "navigation",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:27",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:30",
         "route": "",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:54",
+        "path": "trading-platform/src/App.jsx:58",
         "route": "/ai-analytics",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:27",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:30",
         "route": "/ai-analytics",
         "originApp": "financial-services/smart-contract-auditor"
       }
@@ -509,149 +652,6 @@
     ]
   },
   {
-    "name": "Action",
-    "canonicalKey": "action",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/recommendations/:id/action"
-    ],
-    "sourceProjects": [
-      "bitcoin"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/smart-contract-auditor"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "bitcoin",
-        "path": "trading-platform/backend/src/routes/enhancements.js:104",
-        "route": "/recommendations/:id/action",
-        "originApp": "financial-services/smart-contract-auditor"
-      }
-    ]
-  },
-  {
-    "name": "Additionality Scorer",
-    "canonicalKey": "additionality scorer",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "navigation",
-      "page"
-    ],
-    "routes": [
-      "/additionality-scorer",
-      "/ai/additionality-scorer"
-    ],
-    "sourceProjects": [
-      "AIClimateFinanceCarbonRegistry"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/smart-contract-auditor"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "backend/routes/ai.js:74",
-        "route": "/additionality-scorer",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "frontend/src/components/Sidebar.js:40",
-        "route": "",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "frontend/src/App.js:155",
-        "route": "/ai/additionality-scorer",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "frontend/src/components/Dashboard.js:36",
-        "route": "/ai/additionality-scorer",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "frontend/src/components/Sidebar.js:40",
-        "route": "/ai/additionality-scorer",
-        "originApp": "financial-services/smart-contract-auditor"
-      }
-    ]
-  },
-  {
-    "name": "Advanced Analysis",
-    "canonicalKey": "advanced analysis",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/ai/AdvancedAnalysis",
-      "advanced-analysis"
-    ],
-    "sourceProjects": [
-      "AISmartContractAuditor"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/smart-contract-auditor"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AISmartContractAuditor",
-        "path": "frontend/src/App.tsx:100",
-        "route": "advanced-analysis",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISmartContractAuditor",
-        "path": "frontend/src/pages/ai/AdvancedAnalysis.tsx",
-        "route": "/ai/AdvancedAnalysis",
-        "originApp": "financial-services/smart-contract-auditor"
-      }
-    ]
-  },
-  {
-    "name": "Aggregated",
-    "canonicalKey": "aggregated",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/sentiment/:symbol/aggregated"
-    ],
-    "sourceProjects": [
-      "bitcoin"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/smart-contract-auditor"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "bitcoin",
-        "path": "trading-platform/backend/src/routes/enhancements.js:170",
-        "route": "/sentiment/:symbol/aggregated",
-        "originApp": "financial-services/smart-contract-auditor"
-      }
-    ]
-  },
-  {
     "name": "Aiaml Screen Transaction Page",
     "canonicalKey": "aiaml screen transaction",
     "aliases": [],
@@ -721,7 +721,7 @@
       {
         "kind": "navigation",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:25",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:28",
         "route": "",
         "originApp": "financial-services/smart-contract-auditor"
       }
@@ -747,14 +747,14 @@
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:51",
+        "path": "trading-platform/src/App.jsx:55",
         "route": "/algotrader",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:25",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:28",
         "route": "/algotrader",
         "originApp": "financial-services/smart-contract-auditor"
       }
@@ -822,6 +822,32 @@
         "sourceProject": "AIClimateFinanceCarbonRegistry",
         "path": "frontend/src/components/Sidebar.js:49",
         "route": "",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Analysis",
+    "canonicalKey": "analysis",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/analysis"
+    ],
+    "sourceProjects": [
+      "bitcoin"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "bitcoin",
+        "path": "trading-platform/backend/src/routes/runtimeAi.js:6",
+        "route": "/analysis",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -960,6 +986,51 @@
     ]
   },
   {
+    "name": "Audit History Detail",
+    "canonicalKey": "audit history",
+    "aliases": [
+      "Audit History",
+      "Audit History List"
+    ],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/audit-history/AuditHistoryDetail",
+      "/audit-history/AuditHistoryList",
+      "audit-history"
+    ],
+    "sourceProjects": [
+      "AISmartContractAuditor"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/App.tsx:92",
+        "route": "audit-history",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/pages/audit-history/AuditHistoryDetail.tsx",
+        "route": "/audit-history/AuditHistoryDetail",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/pages/audit-history/AuditHistoryList.tsx",
+        "route": "/audit-history/AuditHistoryList",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "Audit Pdf",
     "canonicalKey": "audit pdf",
     "aliases": [],
@@ -1042,9 +1113,6 @@
     "canonicalKey": "audit",
     "aliases": [
       "Audit",
-      "Audit History",
-      "Audit History Detail",
-      "Audit History List",
       "Audit Page",
       "Audits Page"
     ],
@@ -1057,11 +1125,8 @@
       "/AuditPage",
       "/AuditsPage",
       "/audit",
-      "/audit-history/AuditHistoryDetail",
-      "/audit-history/AuditHistoryList",
       "/audits",
       "/gap-features/_audit",
-      "audit-history",
       "audits"
     ],
     "sourceProjects": [
@@ -1084,27 +1149,6 @@
       "financial-services/trading-merged"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AISmartContractAuditor",
-        "path": "frontend/src/App.tsx:92",
-        "route": "audit-history",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISmartContractAuditor",
-        "path": "frontend/src/pages/audit-history/AuditHistoryDetail.tsx",
-        "route": "/audit-history/AuditHistoryDetail",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AISmartContractAuditor",
-        "path": "frontend/src/pages/audit-history/AuditHistoryList.tsx",
-        "route": "/audit-history/AuditHistoryList",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
       {
         "kind": "page",
         "sourceProject": "AICryptocurrencyTaxCalculator",
@@ -1170,6 +1214,13 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AuditsPage.js",
+        "route": "/AuditsPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIForensicAccountingInvestigator",
         "path": "frontend/src/App.js:160",
         "route": "/audit",
@@ -1202,6 +1253,13 @@
         "path": "backend/routes/claimSeverityLeakageAudit.js:17",
         "route": "/audit",
         "originApp": "financial-services/insurance-claims-adjuster"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "server/routes/governedWorkflow.js:190",
+        "route": "/audit",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
       },
       {
         "kind": "page",
@@ -1237,13 +1295,6 @@
         "path": "client/src/pages/Dashboard.jsx:21",
         "route": "/audit",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "frontend/src/pages/AuditsPage.js",
-        "route": "/AuditsPage",
-        "originApp": "financial-services/smart-contract-auditor"
       }
     ]
   },
@@ -1352,13 +1403,16 @@
   {
     "name": "Beneficiaries",
     "canonicalKey": "beneficiary",
-    "aliases": [],
+    "aliases": [
+      "Beneficiaries Page"
+    ],
     "kinds": [
       "api",
       "navigation",
       "page"
     ],
     "routes": [
+      "/BeneficiariesPage",
       "/beneficiaries"
     ],
     "sourceProjects": [
@@ -1400,6 +1454,13 @@
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
+        "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/BeneficiariesPage.js",
+        "route": "/BeneficiariesPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
         "kind": "navigation",
         "sourceProject": "AIFamilyOfficeManager",
         "path": "frontend/src/components/Sidebar.js:11",
@@ -1432,6 +1493,13 @@
         "sourceProject": "AIWealthManagementRoboAdvisor",
         "path": "server/routes/integrations.js:132",
         "route": "/beneficiaries",
+        "originApp": "financial-services/trading-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFamilyOfficeManager",
+        "path": "frontend/src/pages/BeneficiariesPage.js",
+        "route": "/BeneficiariesPage",
         "originApp": "financial-services/trading-merged"
       }
     ]
@@ -1593,7 +1661,7 @@
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:80",
+        "path": "trading-platform/src/App.jsx:84",
         "route": "/blog",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -1607,7 +1675,7 @@
       {
         "kind": "page",
         "sourceProject": "cash_flow",
-        "path": "src/router/AppRouter.tsx:126",
+        "path": "src/router/AppRouter.tsx:93",
         "route": "/blog",
         "originApp": "financial-services/revenue-recognition-engine"
       },
@@ -1617,6 +1685,32 @@
         "path": "src/pages/Marketing/BlogPage.tsx",
         "route": "/Marketing/BlogPage",
         "originApp": "financial-services/revenue-recognition-engine"
+      }
+    ]
+  },
+  {
+    "name": "Bootstrap",
+    "canonicalKey": "bootstrap",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/bootstrap"
+    ],
+    "sourceProjects": [
+      "bitcoin"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "bitcoin",
+        "path": "trading-platform/backend/src/routes/governedTrading.js:69",
+        "route": "/bootstrap",
+        "originApp": "financial-services/smart-contract-auditor"
       }
     ]
   },
@@ -1747,7 +1841,7 @@
       {
         "kind": "api",
         "sourceProject": "AIVCDealFlowCopilot",
-        "path": "backend/routes/_crudFactory.js:96",
+        "path": "backend/routes/_crudFactory.js:94",
         "route": "/bulk-import",
         "originApp": "financial-services/freqtrade-merged"
       },
@@ -1873,7 +1967,7 @@
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:73",
+        "path": "trading-platform/src/App.jsx:77",
         "route": "/careers",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -2389,7 +2483,7 @@
       {
         "kind": "api",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/backend/src/routes/auth.js:333",
+        "path": "trading-platform/backend/src/routes/auth.js:337",
         "route": "/check-password-strength",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -2423,41 +2517,6 @@
         "path": "frontend/src/components/Sidebar.js:44",
         "route": "",
         "originApp": "financial-services/smart-contract-auditor"
-      }
-    ]
-  },
-  {
-    "name": "Claims Page",
-    "canonicalKey": "claims",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/ClaimsPage"
-    ],
-    "sourceProjects": [
-      "AIClimateFinanceCarbonRegistry",
-      "AIGroundedClaims"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/grounded-claims",
-      "financial-services/smart-contract-auditor"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "frontend/src/pages/ClaimsPage.js",
-        "route": "/ClaimsPage",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIGroundedClaims",
-        "path": "frontend/src/pages/ClaimsPage.js",
-        "route": "/ClaimsPage",
-        "originApp": "financial-services/grounded-claims"
       }
     ]
   },
@@ -2796,7 +2855,7 @@
       {
         "kind": "api",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/backend/src/routes/auth.js:205",
+        "path": "trading-platform/backend/src/routes/auth.js:209",
         "route": "/password-reset/confirm",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -2938,7 +2997,7 @@
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:85",
+        "path": "trading-platform/src/App.jsx:89",
         "route": "/cookies",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -2952,7 +3011,7 @@
       {
         "kind": "page",
         "sourceProject": "cash_flow",
-        "path": "src/router/AppRouter.tsx:137",
+        "path": "src/router/AppRouter.tsx:103",
         "route": "/cookies",
         "originApp": "financial-services/revenue-recognition-engine"
       }
@@ -3085,6 +3144,13 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/CreditsPage.js",
+        "route": "/CreditsPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AiTaxPrep",
         "path": "client/src/App.js:408",
         "route": "/credits",
@@ -3103,13 +3169,6 @@
         "path": "backend/routes/integrations.js:18",
         "route": "/rating-bureau/credit",
         "originApp": "financial-services/insurance-claims-adjuster"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "frontend/src/pages/CreditsPage.js",
-        "route": "/CreditsPage",
-        "originApp": "financial-services/smart-contract-auditor"
       }
     ]
   },
@@ -3776,7 +3835,7 @@
   },
   {
     "name": "Emissions Trend",
-    "canonicalKey": "emissions trend",
+    "canonicalKey": "emission trend",
     "aliases": [],
     "kinds": [
       "api"
@@ -3832,42 +3891,6 @@
         "path": "server/routes/export.js:68",
         "route": "/:entity",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      }
-    ]
-  },
-  {
-    "name": "Execute",
-    "canonicalKey": "execute",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/bots/execute",
-      "/execute"
-    ],
-    "sourceProjects": [
-      "AIInsuranceUnderwritingAgent",
-      "bitcoin"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/insurance-claims-adjuster",
-      "financial-services/smart-contract-auditor"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "bitcoin",
-        "path": "trading-platform/backend/src/routes/enhancements.js:545",
-        "route": "/bots/execute",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIInsuranceUnderwritingAgent",
-        "path": "backend/routes/chatbot.js:279",
-        "route": "/execute",
-        "originApp": "financial-services/insurance-claims-adjuster"
       }
     ]
   },
@@ -4145,7 +4168,7 @@
   },
   {
     "name": "Gap Limited Exchange API Integrations No Coinbase Kraken Binance",
-    "canonicalKey": "api binance coinbase exchange gap integrations kraken limited no",
+    "canonicalKey": "api binance coinbase exchange gap integration kraken limited no",
     "aliases": [],
     "kinds": [
       "page"
@@ -4651,7 +4674,7 @@
   },
   {
     "name": "Gap No Search Across Transactions Surface",
-    "canonicalKey": "across gap no search surface transactions",
+    "canonicalKey": "across gap no search surface transaction",
     "aliases": [],
     "kinds": [
       "page"
@@ -5178,12 +5201,14 @@
       "Issuances Page"
     ],
     "kinds": [
+      "api",
       "navigation",
       "page"
     ],
     "routes": [
       "/IssuancesPage",
-      "/issuances"
+      "/issuances",
+      "/projects/:id/issuances"
     ],
     "sourceProjects": [
       "AIClimateFinanceCarbonRegistry"
@@ -5192,6 +5217,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "backend/routes/governedRegistry.js:171",
+        "route": "/projects/:id/issuances",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "navigation",
         "sourceProject": "AIClimateFinanceCarbonRegistry",
@@ -5364,7 +5396,7 @@
   },
   {
     "name": "Limited Exchange API Integrations No Coinbase Kraken Binance",
-    "canonicalKey": "api binance coinbase exchange integrations kraken limited no",
+    "canonicalKey": "api binance coinbase exchange integration kraken limited no",
     "aliases": [],
     "kinds": [
       "page"
@@ -5521,6 +5553,68 @@
         "path": "backend/routes/ops.js:97",
         "route": "/rbac/matrix",
         "originApp": "financial-services/revenue-recognition-engine"
+      }
+    ]
+  },
+  {
+    "name": "Measurements",
+    "canonicalKey": "measurement",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/projects/:id/measurements"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "backend/routes/governedRegistry.js:67",
+        "route": "/projects/:id/measurements",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Members",
+    "canonicalKey": "member",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/collab/members",
+      "/members"
+    ],
+    "sourceProjects": [
+      "AIAuditWorkpaperAutomation",
+      "bitcoin"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/audit-workpaper-automation",
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "bitcoin",
+        "path": "trading-platform/backend/src/routes/governedTrading.js:111",
+        "route": "/members",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAuditWorkpaperAutomation",
+        "path": "server/routes/extensions.js:375",
+        "route": "/collab/members",
+        "originApp": "financial-services/audit-workpaper-automation"
       }
     ]
   },
@@ -6161,7 +6255,7 @@
   },
   {
     "name": "No Search Across Transactions Surface",
-    "canonicalKey": "across no search surface transactions",
+    "canonicalKey": "across no search surface transaction",
     "aliases": [],
     "kinds": [
       "page"
@@ -6289,6 +6383,13 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/NotificationsPage.js",
+        "route": "/NotificationsPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AISOXAuditAutomation",
         "path": "client/src/components/Layout.jsx:18",
         "route": "/sox-ops/notifications",
@@ -6297,21 +6398,21 @@
       {
         "kind": "api",
         "sourceProject": "AiTaxPrep",
-        "path": "server/routes/auth.js:469",
+        "path": "server/routes/auth.js:468",
         "route": "/notifications",
         "originApp": "financial-services/invoice-processing"
       },
       {
         "kind": "navigation",
         "sourceProject": "claudeTrading",
-        "path": "client/src/components/Sidebar.jsx:53",
+        "path": "client/src/components/Sidebar.jsx:54",
         "route": "",
         "originApp": "financial-services/trading-merged"
       },
       {
         "kind": "page",
         "sourceProject": "claudeTrading",
-        "path": "client/src/App.jsx:134",
+        "path": "client/src/App.jsx:136",
         "route": "/notifications",
         "originApp": "financial-services/trading-merged"
       },
@@ -6356,13 +6457,6 @@
         "path": "client/src/pages/Notifications.jsx",
         "route": "/Notifications",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "frontend/src/pages/NotificationsPage.js",
-        "route": "/NotificationsPage",
-        "originApp": "financial-services/smart-contract-auditor"
       }
     ]
   },
@@ -6449,6 +6543,66 @@
         "path": "trading-platform/backend/src/routes/enhancements.js:122",
         "route": "/recommendations/:id/outcome",
         "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Paper Trading",
+    "canonicalKey": "paper trading",
+    "aliases": [
+      "Paper Trading Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/PaperTradingPage",
+      "/paper-trading"
+    ],
+    "sourceProjects": [
+      "bitcoin",
+      "trading"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor",
+      "financial-services/trading-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "bitcoin",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:26",
+        "route": "",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "bitcoin",
+        "path": "trading-platform/src/App.jsx:54",
+        "route": "/paper-trading",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "bitcoin",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:26",
+        "route": "/paper-trading",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "trading",
+        "path": "frontend/src/App.js:21",
+        "route": "/paper-trading",
+        "originApp": "financial-services/trading-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "trading",
+        "path": "frontend/src/pages/PaperTradingPage.js",
+        "route": "/PaperTradingPage",
+        "originApp": "financial-services/trading-merged"
       }
     ]
   },
@@ -6560,7 +6714,7 @@
       {
         "kind": "api",
         "sourceProject": "AISmallClaimsCourtGuide",
-        "path": "backend/routes/ai.js:241",
+        "path": "backend/routes/ai.js:245",
         "route": "/documents/:id/pdf",
         "originApp": "financial-services/grounded-claims"
       },
@@ -6636,7 +6790,7 @@
       {
         "kind": "api",
         "sourceProject": "AIMortgageUnderwritingAssistant",
-        "path": "server/routes/ai.js:711",
+        "path": "server/routes/ai.js:713",
         "route": "/portfolio-risk",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
@@ -6831,7 +6985,7 @@
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:83",
+        "path": "trading-platform/src/App.jsx:87",
         "route": "/privacy",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -6845,7 +6999,7 @@
       {
         "kind": "page",
         "sourceProject": "cash_flow",
-        "path": "src/router/AppRouter.tsx:135",
+        "path": "src/router/AppRouter.tsx:101",
         "route": "/privacy",
         "originApp": "financial-services/revenue-recognition-engine"
       }
@@ -7037,6 +7191,13 @@
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
+        "kind": "api",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "backend/routes/governedRegistry.js:45",
+        "route": "/projects",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
         "kind": "navigation",
         "sourceProject": "AIClimateFinanceCarbonRegistry",
         "path": "frontend/src/components/Sidebar.js:6",
@@ -7073,8 +7234,15 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/ProjectsPage.js",
+        "route": "/ProjectsPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
         "sourceProject": "multiverseinvestment",
-        "path": "frontend/src/App.jsx:96",
+        "path": "frontend/src/App.jsx:119",
         "route": "/projects",
         "originApp": "financial-services/freqtrade-merged"
       },
@@ -7090,6 +7258,13 @@
         "sourceProject": "multiverseinvestment",
         "path": "frontend/src/pages/Dashboard.jsx:13",
         "route": "/projects",
+        "originApp": "financial-services/freqtrade-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "multiverseinvestment",
+        "path": "frontend/src/pages/ProjectsPage.jsx",
+        "route": "/ProjectsPage",
         "originApp": "financial-services/freqtrade-merged"
       },
       {
@@ -7119,20 +7294,32 @@
         "path": "server/routes/integrations.js:122",
         "route": "/registry/vcs/projects",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Provider Events",
+    "canonicalKey": "event provider",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/provider-events"
+    ],
+    "sourceProjects": [
+      "bitcoin"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
       {
-        "kind": "page",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "frontend/src/pages/ProjectsPage.js",
-        "route": "/ProjectsPage",
+        "kind": "api",
+        "sourceProject": "bitcoin",
+        "path": "trading-platform/backend/src/routes/governedTrading.js:161",
+        "route": "/provider-events",
         "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "multiverseinvestment",
-        "path": "frontend/src/pages/ProjectsPage.jsx",
-        "route": "/ProjectsPage",
-        "originApp": "financial-services/freqtrade-merged"
       }
     ]
   },
@@ -7217,21 +7404,26 @@
   {
     "name": "Recommendations",
     "canonicalKey": "recommendation",
-    "aliases": [],
+    "aliases": [
+      "Recommendation"
+    ],
     "kinds": [
       "api"
     ],
     "routes": [
       "/:report_id/recommendations",
+      "/recommendation",
       "/recommendations"
     ],
     "sourceProjects": [
       "AIExpenseReportAuditor",
-      "bitcoin"
+      "bitcoin",
+      "trading"
     ],
     "consolidatedFromApps": [
       "financial-services/invoice-processing",
-      "financial-services/smart-contract-auditor"
+      "financial-services/smart-contract-auditor",
+      "financial-services/trading-merged"
     ],
     "evidence": [
       {
@@ -7247,6 +7439,13 @@
         "path": "server/routes/taxOptimization.js:8",
         "route": "/:report_id/recommendations",
         "originApp": "financial-services/invoice-processing"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "trading",
+        "path": "backend/src/routes/runtimeAiRoutes.js:6",
+        "route": "/recommendation",
+        "originApp": "financial-services/trading-merged"
       }
     ]
   },
@@ -7491,7 +7690,7 @@
       {
         "kind": "api",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/backend/src/routes/auth.js:171",
+        "path": "trading-platform/backend/src/routes/auth.js:175",
         "route": "/password-reset/request",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -7526,14 +7725,14 @@
       {
         "kind": "api",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/backend/src/routes/auth.js:304",
+        "path": "trading-platform/backend/src/routes/auth.js:308",
         "route": "/resend-verification",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "api",
         "sourceProject": "AiTaxPrep",
-        "path": "server/routes/auth.js:441",
+        "path": "server/routes/auth.js:440",
         "route": "/resend-verification",
         "originApp": "financial-services/invoice-processing"
       }
@@ -7596,6 +7795,7 @@
     ],
     "routes": [
       "/RetirementsPage",
+      "/credit-lots/:id/retirements",
       "/planning/retirement",
       "/public/retirements",
       "/retirements"
@@ -7611,6 +7811,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "backend/routes/governedRegistry.js:204",
+        "route": "/credit-lots/:id/retirements",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "api",
         "sourceProject": "AIClimateFinanceCarbonRegistry",
@@ -7661,6 +7868,13 @@
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
+        "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/RetirementsPage.js",
+        "route": "/RetirementsPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
         "kind": "api",
         "sourceProject": "AiTaxPrep",
         "path": "server/routes/advanced.js:799",
@@ -7673,12 +7887,31 @@
         "path": "frontend/src/components/Sidebar.js:71",
         "route": "",
         "originApp": "financial-services/aml-transaction-monitoring"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Reverse",
+    "canonicalKey": "reverse",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/journal/:transactionId/reverse"
+    ],
+    "sourceProjects": [
+      "bitcoin"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
       {
-        "kind": "page",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "frontend/src/pages/RetirementsPage.js",
-        "route": "/RetirementsPage",
+        "kind": "api",
+        "sourceProject": "bitcoin",
+        "path": "trading-platform/backend/src/routes/governedTrading.js:517",
+        "route": "/journal/:transactionId/reverse",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -8146,7 +8379,7 @@
       {
         "kind": "navigation",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:26",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:29",
         "route": "",
         "originApp": "financial-services/smart-contract-auditor"
       }
@@ -8178,21 +8411,21 @@
       {
         "kind": "navigation",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:32",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:36",
         "route": "",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:65",
+        "path": "trading-platform/src/App.jsx:69",
         "route": "/manage/signals",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:32",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:36",
         "route": "/manage/signals",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -8232,15 +8465,41 @@
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:52",
+        "path": "trading-platform/src/App.jsx:56",
         "route": "/signalstream",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:26",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:29",
         "route": "/signalstream",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Simulate",
+    "canonicalKey": "simulate",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/orders/:orderId/simulate"
+    ],
+    "sourceProjects": [
+      "bitcoin"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "bitcoin",
+        "path": "trading-platform/backend/src/routes/governedTrading.js:430",
+        "route": "/orders/:orderId/simulate",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -8334,6 +8593,7 @@
     "canonicalKey": "strategy",
     "aliases": [
       "List Strategies",
+      "Strategies Page",
       "Strategy",
       "Strategy Page"
     ],
@@ -8346,6 +8606,7 @@
     "routes": [
       "/:id/strategy",
       "/Management/Strategies",
+      "/StrategiesPage",
       "/StrategyPage",
       "/list-strategies",
       "/manage/strategies",
@@ -8368,21 +8629,21 @@
       {
         "kind": "navigation",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:33",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:37",
         "route": "",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:66",
+        "path": "trading-platform/src/App.jsx:70",
         "route": "/manage/strategies",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:33",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:37",
         "route": "/manage/strategies",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -8396,7 +8657,7 @@
       {
         "kind": "page",
         "sourceProject": "multiverseinvestment",
-        "path": "frontend/src/App.jsx:99",
+        "path": "frontend/src/App.jsx:122",
         "route": "/strategies",
         "originApp": "financial-services/freqtrade-merged"
       },
@@ -8412,6 +8673,13 @@
         "sourceProject": "multiverseinvestment",
         "path": "frontend/src/pages/Dashboard.jsx:21",
         "route": "/strategies",
+        "originApp": "financial-services/freqtrade-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "multiverseinvestment",
+        "path": "frontend/src/pages/StrategiesPage.jsx",
+        "route": "/StrategiesPage",
         "originApp": "financial-services/freqtrade-merged"
       },
       {
@@ -8448,6 +8716,32 @@
         "path": "backend/src/routes/billNegotiator.js:180",
         "route": "/:id/strategy",
         "originApp": "financial-services/aml-transaction-monitoring"
+      }
+    ]
+  },
+  {
+    "name": "Submit Verification",
+    "canonicalKey": "submit verification",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/projects/:id/submit-verification"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "backend/routes/governedRegistry.js:101",
+        "route": "/projects/:id/submit-verification",
+        "originApp": "financial-services/smart-contract-auditor"
       }
     ]
   },
@@ -8531,7 +8825,7 @@
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:74",
+        "path": "trading-platform/src/App.jsx:78",
         "route": "/support",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -8545,7 +8839,7 @@
       {
         "kind": "page",
         "sourceProject": "cash_flow",
-        "path": "src/router/AppRouter.tsx:132",
+        "path": "src/router/AppRouter.tsx:99",
         "route": "/support",
         "originApp": "financial-services/revenue-recognition-engine"
       }
@@ -8910,6 +9204,42 @@
     ]
   },
   {
+    "name": "Tax Loss Harvesting",
+    "canonicalKey": "harvesting loss tax",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "navigation"
+    ],
+    "routes": [
+      "/tax-loss-harvesting"
+    ],
+    "sourceProjects": [
+      "AICryptocurrencyTaxCalculator",
+      "AIWealthManagementRoboAdvisor"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor",
+      "financial-services/trading-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/components/Sidebar.js:13",
+        "route": "",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIWealthManagementRoboAdvisor",
+        "path": "server/routes/ai.js:546",
+        "route": "/tax-loss-harvesting",
+        "originApp": "financial-services/trading-merged"
+      }
+    ]
+  },
+  {
     "name": "Tax Optimization Engine",
     "canonicalKey": "engine optimization tax",
     "aliases": [],
@@ -9004,6 +9334,13 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/TaxReportsPage.js",
+        "route": "/TaxReportsPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AiFinancialReportGenerator",
         "path": "frontend/src/App.js:134",
         "route": "/tax-reports",
@@ -9029,13 +9366,6 @@
         "path": "frontend/src/pages/TaxReports.js",
         "route": "/TaxReports",
         "originApp": "financial-services/aml-transaction-monitoring"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AICryptocurrencyTaxCalculator",
-        "path": "frontend/src/pages/TaxReportsPage.js",
-        "route": "/TaxReportsPage",
-        "originApp": "financial-services/smart-contract-auditor"
       }
     ]
   },
@@ -9159,7 +9489,7 @@
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:84",
+        "path": "trading-platform/src/App.jsx:88",
         "route": "/terms",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -9173,7 +9503,7 @@
       {
         "kind": "page",
         "sourceProject": "cash_flow",
-        "path": "src/router/AppRouter.tsx:136",
+        "path": "src/router/AppRouter.tsx:102",
         "route": "/terms",
         "originApp": "financial-services/revenue-recognition-engine"
       }
@@ -9223,6 +9553,44 @@
     ]
   },
   {
+    "name": "Tool Runs",
+    "canonicalKey": "runs",
+    "aliases": [
+      "Runs"
+    ],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cases/:id/tool-runs",
+      "/integrations/runs"
+    ],
+    "sourceProjects": [
+      "AIDebtCollectionOptimizer",
+      "AISmartContractAuditor"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/carbon-credit-marketplace-verifier",
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "backend/src/routes/contractWorkflow.ts:37",
+        "route": "/cases/:id/tool-runs",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDebtCollectionOptimizer",
+        "path": "server/routes/governedWorkflow.js:170",
+        "route": "/integrations/runs",
+        "originApp": "financial-services/carbon-credit-marketplace-verifier"
+      }
+    ]
+  },
+  {
     "name": "Trades",
     "canonicalKey": "trade",
     "aliases": [],
@@ -9260,21 +9628,21 @@
       {
         "kind": "navigation",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:34",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:38",
         "route": "",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:67",
+        "path": "trading-platform/src/App.jsx:71",
         "route": "/manage/trades",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:34",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:38",
         "route": "/manage/trades",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -9351,75 +9719,17 @@
     ]
   },
   {
-    "name": "Transactions Page",
-    "canonicalKey": "transactions",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/Transactions/TransactionsPage",
-      "/TransactionsPage"
-    ],
-    "sourceProjects": [
-      "AIAMLTransactionMonitoring",
-      "AIClimateFinanceCarbonRegistry",
-      "AICryptocurrencyTaxCalculator",
-      "AIPersonalFinanceMultiAgent",
-      "cash_flow"
-    ],
-    "consolidatedFromApps": [
-      "financial-services/aml-transaction-monitoring",
-      "financial-services/revenue-recognition-engine",
-      "financial-services/smart-contract-auditor"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIClimateFinanceCarbonRegistry",
-        "path": "frontend/src/pages/TransactionsPage.js",
-        "route": "/TransactionsPage",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AICryptocurrencyTaxCalculator",
-        "path": "frontend/src/pages/TransactionsPage.js",
-        "route": "/TransactionsPage",
-        "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "cash_flow",
-        "path": "src/pages/Transactions/TransactionsPage.tsx",
-        "route": "/Transactions/TransactionsPage",
-        "originApp": "financial-services/revenue-recognition-engine"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAMLTransactionMonitoring",
-        "path": "frontend/src/pages/TransactionsPage.js",
-        "route": "/TransactionsPage",
-        "originApp": "financial-services/aml-transaction-monitoring"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIPersonalFinanceMultiAgent",
-        "path": "frontend/src/pages/TransactionsPage.js",
-        "route": "/TransactionsPage",
-        "originApp": "financial-services/aml-transaction-monitoring"
-      }
-    ]
-  },
-  {
     "name": "Tutorials",
     "canonicalKey": "tutorial",
-    "aliases": [],
+    "aliases": [
+      "Tutorials Page"
+    ],
     "kinds": [
       "page"
     ],
     "routes": [
       "/Resources/Tutorials",
+      "/Support/TutorialsPage",
       "/tutorials"
     ],
     "sourceProjects": [
@@ -9434,7 +9744,7 @@
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:79",
+        "path": "trading-platform/src/App.jsx:83",
         "route": "/tutorials",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -9448,8 +9758,15 @@
       {
         "kind": "page",
         "sourceProject": "cash_flow",
-        "path": "src/router/AppRouter.tsx:131",
+        "path": "src/router/AppRouter.tsx:98",
         "route": "/tutorials",
+        "originApp": "financial-services/revenue-recognition-engine"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "cash_flow",
+        "path": "src/pages/Support/TutorialsPage.tsx",
+        "route": "/Support/TutorialsPage",
         "originApp": "financial-services/revenue-recognition-engine"
       }
     ]
@@ -9586,21 +9903,21 @@
       {
         "kind": "navigation",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:35",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:39",
         "route": "",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/App.jsx:68",
+        "path": "trading-platform/src/App.jsx:72",
         "route": "/manage/users",
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
         "kind": "page",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/src/components/Layout/Navbar.jsx:35",
+        "path": "trading-platform/src/components/Layout/Navbar.jsx:39",
         "route": "/manage/users",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -9614,28 +9931,28 @@
       {
         "kind": "navigation",
         "sourceProject": "AIAuditWorkpaperAutomation",
-        "path": "client/src/components/Sidebar.js:25",
+        "path": "client/src/components/Sidebar.jsx:25",
         "route": "",
         "originApp": "financial-services/audit-workpaper-automation"
       },
       {
         "kind": "page",
         "sourceProject": "AIAuditWorkpaperAutomation",
-        "path": "client/src/pages/UserManagementPage.js",
+        "path": "client/src/pages/UserManagementPage.jsx",
         "route": "/UserManagementPage",
         "originApp": "financial-services/audit-workpaper-automation"
       },
       {
         "kind": "page",
         "sourceProject": "AIAuditWorkpaperAutomation",
-        "path": "client/src/App.js:77",
+        "path": "client/src/App.jsx:77",
         "route": "/users",
         "originApp": "financial-services/audit-workpaper-automation"
       },
       {
         "kind": "page",
         "sourceProject": "AIAuditWorkpaperAutomation",
-        "path": "client/src/components/Sidebar.js:25",
+        "path": "client/src/components/Sidebar.jsx:25",
         "route": "/users",
         "originApp": "financial-services/audit-workpaper-automation"
       },
@@ -9656,14 +9973,14 @@
       {
         "kind": "api",
         "sourceProject": "AIVCDealFlowCopilot",
-        "path": "backend/routes/auth.js:78",
+        "path": "backend/routes/auth.js:57",
         "route": "/users",
         "originApp": "financial-services/freqtrade-merged"
       },
       {
         "kind": "api",
         "sourceProject": "AIFamilyOfficeManager",
-        "path": "backend/routes/auth.js:71",
+        "path": "backend/routes/auth.js:49",
         "route": "/users",
         "originApp": "financial-services/trading-merged"
       },
@@ -9677,14 +9994,14 @@
       {
         "kind": "api",
         "sourceProject": "AIGroundedClaims",
-        "path": "backend/routes/auth.js:37",
+        "path": "backend/routes/auth.js:31",
         "route": "/users",
         "originApp": "financial-services/grounded-claims"
       },
       {
         "kind": "api",
         "sourceProject": "AIAMLTransactionMonitoring",
-        "path": "backend/routes/auth.js:78",
+        "path": "backend/routes/auth.js:4",
         "route": "/users",
         "originApp": "financial-services/aml-transaction-monitoring"
       },
@@ -9831,7 +10148,7 @@
       {
         "kind": "api",
         "sourceProject": "bitcoin",
-        "path": "trading-platform/backend/src/routes/auth.js:109",
+        "path": "trading-platform/backend/src/routes/auth.js:113",
         "route": "/verify",
         "originApp": "financial-services/smart-contract-auditor"
       },
@@ -9852,7 +10169,7 @@
       {
         "kind": "api",
         "sourceProject": "aiFinancePlatform",
-        "path": "backend/src/routes/auth.js:244",
+        "path": "backend/src/routes/auth.js:204",
         "route": "/2fa/verify",
         "originApp": "financial-services/aml-transaction-monitoring"
       }
