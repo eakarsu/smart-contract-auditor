@@ -11,12 +11,12 @@
     "AISmartContractAuditor",
     "bitcoin"
   ],
-  "featureCount": 263,
-  "candidateFeatureCount": 401,
-  "eliminatedSimilarFeatures": 138,
-  "evidenceCount": 710,
-  "aiPageCount": 20,
-  "sourceAIPageCount": 20,
+  "featureCount": 290,
+  "candidateFeatureCount": 426,
+  "eliminatedSimilarFeatures": 136,
+  "evidenceCount": 766,
+  "aiPageCount": 38,
+  "sourceAIPageCount": 38,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 22,
     "seededRows": 345
   },
-  "visibleFeatureCount": 53,
+  "visibleFeatureCount": 77,
   "featureVisibilityMode": "seeded-or-ai"
 }

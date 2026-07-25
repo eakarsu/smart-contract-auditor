@@ -143,6 +143,32 @@
     ]
   },
   {
+    "name": "AI Additionality Scorer",
+    "canonicalKey": "additionality ai scorer",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/additionality-scorer"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIAdditionalityScorerPage.js",
+        "route": "/ai/additionality-scorer",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "AI Additionality Scorer Page",
     "canonicalKey": "additionality ai scorer",
     "aliases": [],
@@ -164,6 +190,32 @@
         "sourceProject": "AIClimateFinanceCarbonRegistry",
         "path": "frontend/src/pages/AIAdditionalityScorerPage.js",
         "route": "/AIAdditionalityScorerPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "AI Aml Sanctions Screening",
+    "canonicalKey": "ai aml sanction screening",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/aml-screen-transaction"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIAMLScreenTransactionPage.js",
+        "route": "/ai/aml-screen-transaction",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -210,6 +262,32 @@
     ]
   },
   {
+    "name": "AI Analyze Pricing",
+    "canonicalKey": "ai analyze pricing",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/analyze-pricing"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIAnalyzePricingPage.js",
+        "route": "/ai/analyze-pricing",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "AI Analyze Pricing Page",
     "canonicalKey": "ai analyze pricing",
     "aliases": [],
@@ -231,6 +309,32 @@
         "sourceProject": "AIClimateFinanceCarbonRegistry",
         "path": "frontend/src/pages/AIAnalyzePricingPage.js",
         "route": "/AIAnalyzePricingPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "AI Biodiversity Co Benefit",
+    "canonicalKey": "ai benefit biodiversity co",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/biodiversity-co-benefit"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIBiodiversityCoBenefitPage.js",
+        "route": "/ai/biodiversity-co-benefit",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -262,6 +366,32 @@
     ]
   },
   {
+    "name": "AI Climate Claim Validator",
+    "canonicalKey": "ai claim climate validator",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/climate-claim-validator"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIClimateClaimValidatorPage.js",
+        "route": "/ai/climate-claim-validator",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "AI Climate Claim Validator Page",
     "canonicalKey": "ai claim climate validator",
     "aliases": [],
@@ -283,6 +413,32 @@
         "sourceProject": "AIClimateFinanceCarbonRegistry",
         "path": "frontend/src/pages/AIClimateClaimValidatorPage.js",
         "route": "/AIClimateClaimValidatorPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "AI Detect Fraud",
+    "canonicalKey": "ai detect fraud",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/detect-fraud"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIDetectFraudPage.js",
+        "route": "/ai/detect-fraud",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -314,6 +470,32 @@
     ]
   },
   {
+    "name": "AI Double Counting Detect",
+    "canonicalKey": "ai counting detect double",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/double-counting-detect"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIDoubleCountingDetectPage.js",
+        "route": "/ai/double-counting-detect",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "AI Double Counting Detect Page",
     "canonicalKey": "ai counting detect double",
     "aliases": [],
@@ -335,6 +517,32 @@
         "sourceProject": "AIClimateFinanceCarbonRegistry",
         "path": "frontend/src/pages/AIDoubleCountingDetectPage.js",
         "route": "/AIDoubleCountingDetectPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "AI Draft Disclosure",
+    "canonicalKey": "ai disclosure draft",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/draft-disclosure"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIDraftDisclosurePage.js",
+        "route": "/ai/draft-disclosure",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -366,6 +574,32 @@
     ]
   },
   {
+    "name": "AI Leakage Modeler",
+    "canonicalKey": "ai leakage modeler",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/leakage-modeler"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AILeakageModelerPage.js",
+        "route": "/ai/leakage-modeler",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "AI Leakage Modeler Page",
     "canonicalKey": "ai leakage modeler",
     "aliases": [],
@@ -387,6 +621,32 @@
         "sourceProject": "AIClimateFinanceCarbonRegistry",
         "path": "frontend/src/pages/AILeakageModelerPage.js",
         "route": "/AILeakageModelerPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "AI Map Methodology",
+    "canonicalKey": "ai map methodology",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/map-methodology"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIMapMethodologyPage.js",
+        "route": "/ai/map-methodology",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -418,6 +678,32 @@
     ]
   },
   {
+    "name": "AI Mrv Document Validator",
+    "canonicalKey": "ai document mrv validator",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/mrv-document-validate"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIMRVDocumentValidatePage.js",
+        "route": "/ai/mrv-document-validate",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "AI Narrative Evidence Reconcile Page",
     "canonicalKey": "ai evidence narrative reconcile",
     "aliases": [],
@@ -439,6 +725,58 @@
         "sourceProject": "AIClimateFinanceCarbonRegistry",
         "path": "frontend/src/pages/AINarrativeEvidenceReconcilePage.js",
         "route": "/AINarrativeEvidenceReconcilePage",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "AI Narrative Vs Evidence Reconcile",
+    "canonicalKey": "ai evidence narrative reconcile vs",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/narrative-evidence-reconcile"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AINarrativeEvidenceReconcilePage.js",
+        "route": "/ai/narrative-evidence-reconcile",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "AI Price Discovery",
+    "canonicalKey": "ai discovery price",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/price-discovery"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIPriceDiscoveryPage.js",
+        "route": "/ai/price-discovery",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -470,6 +808,32 @@
     ]
   },
   {
+    "name": "AI Project Composite Rating",
+    "canonicalKey": "ai composite project rating",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/project-rating"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIProjectRatingPage.js",
+        "route": "/ai/project-rating",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "AI Project Rating Page",
     "canonicalKey": "ai project rating",
     "aliases": [],
@@ -491,6 +855,32 @@
         "sourceProject": "AIClimateFinanceCarbonRegistry",
         "path": "frontend/src/pages/AIProjectRatingPage.js",
         "route": "/AIProjectRatingPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "AI Registry Arbitrage",
+    "canonicalKey": "ai arbitrage registry",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/registry-arbitrage"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIRegistryArbitragePage.js",
+        "route": "/ai/registry-arbitrage",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -522,6 +912,32 @@
     ]
   },
   {
+    "name": "AI Satellite Mrv",
+    "canonicalKey": "ai mrv satellite",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/satellite-mrv"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AISatelliteMRVPage.js",
+        "route": "/ai/satellite-mrv",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "AI Satellite Mrv Page",
     "canonicalKey": "ai mrv satellite",
     "aliases": [],
@@ -543,6 +959,32 @@
         "sourceProject": "AIClimateFinanceCarbonRegistry",
         "path": "frontend/src/pages/AISatelliteMRVPage.js",
         "route": "/AISatelliteMRVPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "AI Scope 3 Attributor",
+    "canonicalKey": "3 ai attributor scope",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/scope-3-attributor"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIScope3AttributorPage.js",
+        "route": "/ai/scope-3-attributor",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -574,6 +1016,32 @@
     ]
   },
   {
+    "name": "AI Supply Cap Forecast",
+    "canonicalKey": "ai cap forecast supply",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/supply-cap-forecast"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AISupplyCapForecastPage.js",
+        "route": "/ai/supply-cap-forecast",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "AI Supply Cap Forecast Page",
     "canonicalKey": "ai cap forecast supply",
     "aliases": [],
@@ -600,6 +1068,32 @@
     ]
   },
   {
+    "name": "AI Synthesize Mrv",
+    "canonicalKey": "ai mrv synthesize",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/synthesize-mrv"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AISynthesizeMRVPage.js",
+        "route": "/ai/synthesize-mrv",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "AI Synthesize Mrv Page",
     "canonicalKey": "ai mrv synthesize",
     "aliases": [],
@@ -621,6 +1115,32 @@
         "sourceProject": "AIClimateFinanceCarbonRegistry",
         "path": "frontend/src/pages/AISynthesizeMRVPage.js",
         "route": "/AISynthesizeMRVPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "AI Verify Project",
+    "canonicalKey": "ai project verify",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai/verify-project"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/AIVerifyProjectPage.js",
+        "route": "/ai/verify-project",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -986,6 +1506,32 @@
     ]
   },
   {
+    "name": "Audit Defense Generator",
+    "canonicalKey": "audit defense generator",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-advanced?tool=audit-defense"
+    ],
+    "sourceProjects": [
+      "AICryptocurrencyTaxCalculator"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/AIAdvancedPage.js:31",
+        "route": "/ai-advanced?tool=audit-defense",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "Audit History Detail",
     "canonicalKey": "audit history",
     "aliases": [
@@ -1303,9 +1849,11 @@
     "canonicalKey": "auto categorize transaction",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advanced?tool=auto-categorize-transactions",
       "/auto-categorize-transactions"
     ],
     "sourceProjects": [
@@ -1315,6 +1863,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/AIAdvancedPage.js:106",
+        "route": "/ai-advanced?tool=auto-categorize-transactions",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "api",
         "sourceProject": "AICryptocurrencyTaxCalculator",
@@ -1329,10 +1884,12 @@
     "canonicalKey": "auto fix",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
-      "/AutoFix"
+      "/AutoFix",
+      "/vulnerabilities"
     ],
     "sourceProjects": [
       "AISmartContractAuditor"
@@ -1341,6 +1898,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/pages/VulnerabilityList.tsx:1",
+        "route": "/vulnerabilities",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "page",
         "sourceProject": "AISmartContractAuditor",
@@ -1942,6 +2506,32 @@
         "sourceProject": "AICryptocurrencyTaxCalculator",
         "path": "backend/src/routes/aiNew.js:361",
         "route": "/carbon-offset-tax-credit",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Carbon Offset Tax Credit Finder",
+    "canonicalKey": "carbon credit finder offset tax",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-advanced?tool=carbon-offset-tax-credit"
+    ],
+    "sourceProjects": [
+      "AICryptocurrencyTaxCalculator"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/AIAdvancedPage.js:76",
+        "route": "/ai-advanced?tool=carbon-offset-tax-credit",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -2600,6 +3190,7 @@
     "canonicalKey": "code quality",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
@@ -2615,6 +3206,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/pages/ai/CodeQuality.tsx:1",
+        "route": "/code-quality",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "api",
         "sourceProject": "AISmartContractAuditor",
@@ -2693,43 +3291,26 @@
   {
     "name": "Compliance Check",
     "canonicalKey": "check compliance",
-    "aliases": [
-      "Check Compliance"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "model",
       "navigation",
       "page"
     ],
     "routes": [
-      "/check-compliance",
       "/compliance-check",
       "compliance-check"
     ],
     "sourceProjects": [
-      "AICreditRiskAssessmentAgent",
       "AICryptocurrencyTaxCalculator",
-      "AIDAOGovernanceAssistant",
-      "AIRevenueRecognitionEngine",
-      "AISmartContractAuditor",
-      "AiFinancialReportGenerator"
+      "AISmartContractAuditor"
     ],
     "consolidatedFromApps": [
-      "financial-services/aave-protocol-v2-merged",
-      "financial-services/aml-transaction-monitoring",
-      "financial-services/carbon-credit-marketplace-verifier",
-      "financial-services/revenue-recognition-engine",
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIDAOGovernanceAssistant",
-        "path": "backend/routes/aiNew.js:478",
-        "route": "/compliance-check",
-        "originApp": "financial-services/aave-protocol-v2-merged"
-      },
       {
         "kind": "model",
         "sourceProject": "AICryptocurrencyTaxCalculator",
@@ -2745,6 +3326,13 @@
         "originApp": "financial-services/smart-contract-auditor"
       },
       {
+        "kind": "ai-page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/pages/ai/ComplianceChecking.tsx:1",
+        "route": "/compliance-check",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
         "kind": "api",
         "sourceProject": "AISmartContractAuditor",
         "path": "backend/src/routes/ai.ts:171",
@@ -2757,27 +3345,6 @@
         "path": "frontend/src/App.tsx:96",
         "route": "compliance-check",
         "originApp": "financial-services/smart-contract-auditor"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIRevenueRecognitionEngine",
-        "path": "backend/routes/ai.js:33",
-        "route": "/compliance-check",
-        "originApp": "financial-services/revenue-recognition-engine"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiFinancialReportGenerator",
-        "path": "backend/src/routes/ai.js:848",
-        "route": "/check-compliance",
-        "originApp": "financial-services/aml-transaction-monitoring"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICreditRiskAssessmentAgent",
-        "path": "backend/src/routes/ai.js:102",
-        "route": "/compliance-check",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
       }
     ]
   },
@@ -3374,6 +3941,32 @@
     ]
   },
   {
+    "name": "De Fi Tax Implications",
+    "canonicalKey": "de fi implication tax",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-advanced?tool=analyze-defi-tax-implications"
+    ],
+    "sourceProjects": [
+      "AICryptocurrencyTaxCalculator"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/AIAdvancedPage.js:116",
+        "route": "/ai-advanced?tool=analyze-defi-tax-implications",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "Defi",
     "canonicalKey": "defi",
     "aliases": [],
@@ -3612,13 +4205,6 @@
       {
         "kind": "api",
         "sourceProject": "AIDebtCollectionOptimizer",
-        "path": "server/routes/aiNew.js:365",
-        "route": "/detect-fraud",
-        "originApp": "financial-services/carbon-credit-marketplace-verifier"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDebtCollectionOptimizer",
         "path": "server/routes/fraudDetect.js:58",
         "route": "/fraud-detect",
         "originApp": "financial-services/carbon-credit-marketplace-verifier"
@@ -3630,9 +4216,11 @@
     "canonicalKey": "donation optimizer",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advanced?tool=donation-optimizer",
       "/donation-optimizer"
     ],
     "sourceProjects": [
@@ -3642,6 +4230,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/AIAdvancedPage.js:20",
+        "route": "/ai-advanced?tool=donation-optimizer",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "api",
         "sourceProject": "AICryptocurrencyTaxCalculator",
@@ -3829,6 +4424,32 @@
         "sourceProject": "AICryptocurrencyTaxCalculator",
         "path": "backend/src/routes/aiNew.js:255",
         "route": "/earned-income-split",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "Earned Income Split Analyzer",
+    "canonicalKey": "analyzer earned income split",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-advanced?tool=earned-income-split"
+    ],
+    "sourceProjects": [
+      "AICryptocurrencyTaxCalculator"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/AIAdvancedPage.js:52",
+        "route": "/ai-advanced?tool=earned-income-split",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -4935,6 +5556,7 @@
     "canonicalKey": "gas optimization",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
@@ -4950,6 +5572,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/pages/ai/GasOptimization.tsx:1",
+        "route": "/gas-optimization",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "api",
         "sourceProject": "AISmartContractAuditor",
@@ -5131,6 +5760,32 @@
         "sourceProject": "AICryptocurrencyTaxCalculator",
         "path": "backend/src/routes/aiNew.js:201",
         "route": "/international-tax",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
+    "name": "International Tax Mapper",
+    "canonicalKey": "international mapper tax",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-advanced?tool=international-tax"
+    ],
+    "sourceProjects": [
+      "AICryptocurrencyTaxCalculator"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/AIAdvancedPage.js:41",
+        "route": "/ai-advanced?tool=international-tax",
         "originApp": "financial-services/smart-contract-auditor"
       }
     ]
@@ -7454,6 +8109,7 @@
     "canonicalKey": "detection reentrancy",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
@@ -7469,6 +8125,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/pages/ai/ReentrancyDetection.tsx:1",
+        "route": "/reentrancy-detection",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "api",
         "sourceProject": "AISmartContractAuditor",
@@ -7739,6 +8402,42 @@
     ]
   },
   {
+    "name": "Result",
+    "canonicalKey": "result",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api"
+    ],
+    "routes": [
+      "/advanced-analysis",
+      "/results"
+    ],
+    "sourceProjects": [
+      "AIClimateFinanceCarbonRegistry",
+      "AISmartContractAuditor"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/smart-contract-auditor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "backend/routes/ai.js:1001",
+        "route": "/results",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/pages/ai/AdvancedAnalysis.tsx:1",
+        "route": "/advanced-analysis",
+        "originApp": "financial-services/smart-contract-auditor"
+      }
+    ]
+  },
+  {
     "name": "Retirement Certificate Pack",
     "canonicalKey": "certificate pack retirement",
     "aliases": [
@@ -7973,9 +8672,11 @@
     "canonicalKey": "conversion roth simulator",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advanced?tool=roth-conversion-simulator",
       "/roth-conversion-simulator"
     ],
     "sourceProjects": [
@@ -7985,6 +8686,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/AIAdvancedPage.js:90",
+        "route": "/ai-advanced?tool=roth-conversion-simulator",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "api",
         "sourceProject": "AICryptocurrencyTaxCalculator",
@@ -8567,9 +9275,11 @@
     "canonicalKey": "automator reward staking",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advanced?tool=staking-reward-automator",
       "/staking-reward-automator"
     ],
     "sourceProjects": [
@@ -8579,6 +9289,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/AIAdvancedPage.js:66",
+        "route": "/ai-advanced?tool=staking-reward-automator",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "api",
         "sourceProject": "AICryptocurrencyTaxCalculator",
@@ -9075,9 +9792,11 @@
     "canonicalKey": "bracket forecaster tax",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advanced?tool=tax-bracket-forecaster",
       "/tax-bracket-forecaster"
     ],
     "sourceProjects": [
@@ -9087,6 +9806,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/AIAdvancedPage.js:7",
+        "route": "/ai-advanced?tool=tax-bracket-forecaster",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "api",
         "sourceProject": "AICryptocurrencyTaxCalculator",
@@ -9514,6 +10240,7 @@
     "canonicalKey": "generation test",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
@@ -9529,6 +10256,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/pages/ai/TestGeneration.tsx:1",
+        "route": "/test-generation",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "api",
         "sourceProject": "AISmartContractAuditor",
@@ -9715,6 +10449,200 @@
         "path": "backend/src/routes/strategyRoutes.js:20",
         "route": "/:id/trades",
         "originApp": "financial-services/trading-merged"
+      }
+    ]
+  },
+  {
+    "name": "Transactions",
+    "canonicalKey": "transaction",
+    "aliases": [
+      "Edit Transaction Page",
+      "Transactions Page"
+    ],
+    "kinds": [
+      "api",
+      "model",
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/Transactions",
+      "/Transactions/EditTransactionPage",
+      "/Transactions/TransactionsPage",
+      "/TransactionsPage",
+      "/transactions",
+      "transactions"
+    ],
+    "sourceProjects": [
+      "AIAMLTransactionMonitoring",
+      "AIClimateFinanceCarbonRegistry",
+      "AICryptocurrencyTaxCalculator",
+      "AIForensicAccountingInvestigator",
+      "AIPersonalFinanceMultiAgent",
+      "AIWealthManagementRoboAdvisor",
+      "cash_flow"
+    ],
+    "consolidatedFromApps": [
+      "financial-services/aml-transaction-monitoring",
+      "financial-services/invoice-processing",
+      "financial-services/revenue-recognition-engine",
+      "financial-services/smart-contract-auditor",
+      "financial-services/trading-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/components/Sidebar.js:10",
+        "route": "",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/App.js:129",
+        "route": "/transactions",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/components/Dashboard.js:11",
+        "route": "/transactions",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/components/Sidebar.js:10",
+        "route": "/transactions",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "backend/src/models/Transaction.js",
+        "route": "",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/components/Sidebar.js:10",
+        "route": "",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/App.js:95",
+        "route": "/transactions",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/components/Sidebar.js:10",
+        "route": "/transactions",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/Dashboard.js:7",
+        "route": "/transactions",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIClimateFinanceCarbonRegistry",
+        "path": "frontend/src/pages/TransactionsPage.js",
+        "route": "/TransactionsPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICryptocurrencyTaxCalculator",
+        "path": "frontend/src/pages/TransactionsPage.js",
+        "route": "/TransactionsPage",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIForensicAccountingInvestigator",
+        "path": "backend/src/routes/data-import.js:40",
+        "route": "/transactions",
+        "originApp": "financial-services/invoice-processing"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "cash_flow",
+        "path": "src/pages/Transactions/EditTransactionPage.tsx",
+        "route": "/Transactions/EditTransactionPage",
+        "originApp": "financial-services/revenue-recognition-engine"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "cash_flow",
+        "path": "src/api/routes/quickbooks.js:62",
+        "route": "/transactions",
+        "originApp": "financial-services/revenue-recognition-engine"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "cash_flow",
+        "path": "src/router/AppRouter.tsx:63",
+        "route": "/transactions",
+        "originApp": "financial-services/revenue-recognition-engine"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "cash_flow",
+        "path": "src/pages/Transactions/TransactionsPage.tsx",
+        "route": "/Transactions/TransactionsPage",
+        "originApp": "financial-services/revenue-recognition-engine"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIWealthManagementRoboAdvisor",
+        "path": "client/src/App.jsx:81",
+        "route": "transactions",
+        "originApp": "financial-services/trading-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIWealthManagementRoboAdvisor",
+        "path": "client/src/components/Layout.jsx:14",
+        "route": "/transactions",
+        "originApp": "financial-services/trading-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIWealthManagementRoboAdvisor",
+        "path": "client/src/pages/Dashboard.jsx:8",
+        "route": "/transactions",
+        "originApp": "financial-services/trading-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIWealthManagementRoboAdvisor",
+        "path": "client/src/pages/Transactions.jsx",
+        "route": "/Transactions",
+        "originApp": "financial-services/trading-merged"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIAMLTransactionMonitoring",
+        "path": "frontend/src/pages/TransactionsPage.js",
+        "route": "/TransactionsPage",
+        "originApp": "financial-services/aml-transaction-monitoring"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIPersonalFinanceMultiAgent",
+        "path": "frontend/src/pages/TransactionsPage.js",
+        "route": "/TransactionsPage",
+        "originApp": "financial-services/aml-transaction-monitoring"
       }
     ]
   },
@@ -10360,6 +11288,7 @@
     "canonicalKey": "scan vulnerability",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
@@ -10374,6 +11303,13 @@
       "financial-services/smart-contract-auditor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AISmartContractAuditor",
+        "path": "frontend/src/pages/ai/VulnerabilityDetection.tsx:1",
+        "route": "/vulnerability-scan",
+        "originApp": "financial-services/smart-contract-auditor"
+      },
       {
         "kind": "api",
         "sourceProject": "AISmartContractAuditor",
