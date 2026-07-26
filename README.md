@@ -3,7 +3,7 @@
 Industry: **Financial Services**  
 Specialization: **Smart Contract Auditor**
 
-This standalone application consolidates source-backed capabilities into 290 optimized features, including 77 visible data-backed or AI-enabled views. Its public demo SQLite database contains 345 sanitized source rows across 22 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 290 optimized features, including all 290 source-backed feature views. Its public demo SQLite database contains 345 sanitized source rows across 22 imported tables and 120 operational workflow records.
 
 ## Run locally
 
